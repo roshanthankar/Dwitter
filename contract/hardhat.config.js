@@ -18,4 +18,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.4",
+  networks: {
+    hardhat: {
+      chainId: 1337,
+    },
+    polygon: {
+      url: 'https://polygon-mumbai.g.alchemy.com/v2/Ky3U1us5UKV74aLIaZjkSvvUJzBf5b8T',
+      accounts: ['']
+    }
+  },
 };
