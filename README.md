@@ -13,3 +13,19 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+To run the complete project:
+cd dwitter/Contract : npx hardhat node
+cd dwitter/Contract : npx hardhat test
+cd dwitter/Contract : npx hardhat run scripts/deploy.js --network localhost
+cd dwitter/dapp : npm run dev
+
+NOTE:
+*** Metamask account needed ***
+
+Demo:
+<img width="1432" alt="Screenshot 2022-06-04 at 4 00 56 PM" src="https://user-images.githubusercontent.com/68909446/172010311-83bb56cc-2ae2-4d07-b230-b12ffde23b98.png">
+
+<img width="1440" alt="Screenshot 2022-06-04 at 4 02 07 PM" src="https://user-images.githubusercontent.com/68909446/172010327-6393a505-beac-440d-99be-73e6f508aaa4.png">
+
+<img width="1418" alt="Screenshot 2022-06-04 at 4 02 59 PM" src="https://user-images.githubusercontent.com/68909446/172010351-831b8607-7f86-41dd-b356-f9f511a81819.png">
+
