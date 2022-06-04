@@ -13,12 +13,14 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+*****************************************************************************
+```shell
 To run the complete project:
 cd dwitter/Contract : npx hardhat node
 cd dwitter/Contract : npx hardhat test
 cd dwitter/Contract : npx hardhat run scripts/deploy.js --network localhost
 cd dwitter/dapp : npm run dev
-
+```
 NOTE:
 *** Metamask account needed ***
 
